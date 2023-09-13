@@ -1,0 +1,82 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container{
+       display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mlr{
+
+    background-color: rgba(255, 255, 255, 0.445);
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 100px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil{
+    position: fixed;
+    margin-bottom: 300px;
+}
+
+.ema,.sen{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 350px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    outline: none;
+    border: 0;
+    width: 340px;
+    margin-left: 10px;
+}
+
+.icon{
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.btn{
+    background-color: orange;
+    border-radius: 15px;
+    border: 2px solid orange;
+    width: 350px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.style-message{
+    width: 400px;
+    height: 50px;
+    /*background-color: #FF0000;*/
+    color:#FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+
+.submit:hover{
+    background-color: green;
+}

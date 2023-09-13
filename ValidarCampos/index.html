@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Estilizando Formulários</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        
+    </head>
+    <body>
+        <div id="container">
+            <img class="perfil" src="img/perfil.png">
+            <div class="mlr">
+                <form onSubmit="return validaCampo();">
+                    <div class="ema">
+                        <img class="icon" src="../Exercicio7/img/icone-usuario.png" alt="">
+                        <input  type="email" required class="form-control" id="campoEmail" placeholder="Email" onkeypress="limpa();">
+                    </div>
+                    <div class="sen">
+                        <img class="icon" src="../Exercicio7/img/icone-cadeado.png" alt="">
+                        <input  type="password" required  class="form-control" id="campoSenha" placeholder="Senha" onkeypress="limpa();">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+
+                <div id="erro">
+
+                </div>	
+
+                <div id="logado">
+
+                </div>	
+                
+            </div>
+        </div>
+      
+
+        <script language="javascript" src="./js/fun.js"></script>
+    </body>
+
+
+
+
+</html>
